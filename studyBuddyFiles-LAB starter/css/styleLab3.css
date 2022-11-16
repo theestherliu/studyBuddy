@@ -1,0 +1,170 @@
+body{
+    font-family: 'Palanquin', sans-serif;
+}
+
+#title{
+    background-color: #fa7f96;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+h1{
+    font-family: 'Palanquin', sans-serif;
+    font-weight: bold; 
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+
+h2{
+    color: white;
+    font-family: 'Palanquin';
+    font-size: 1.5;
+    font-weight: bold;
+}
+
+h3{
+    font-family: 'Palanquin';
+    font-weight: bold; 
+}
+
+p{
+    color: #7e7e7e; 
+}
+
+/*Navigation Bar*/
+
+.navbar{
+    padding: 0 0 4.5rem; 
+}
+
+.navbar-brand{
+    font-family:'Roboto';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.navbar-link{
+    font-family: 'Palanquin';
+    font-size: 1.2rem; 
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image{
+    width: 60%;
+    transform: rotate(20deg); 
+    z-index: -1; 
+    position: static; 
+        /* If I put absolute or relative, the phone disappears from my fullscreen mode on desktop. */
+}
+
+
+
+#features{
+    padding: 7% 15%;
+    background-color: white; 
+}
+
+.feature-box{
+    text-align: center; 
+    padding: 5%; 
+}
+
+.icon{
+    color: #00c9b8;
+    margin-bottom: 1rem; 
+}
+
+.icon:hover{
+    color: #fa7f96;
+}
+
+#testimonials{
+    text-align: center;
+    background-color:rgb(199, 127, 199);
+}
+
+.carousel-item{
+    padding: 7% 15%; /*top/bottom, left/right arrows in carousel*/ 
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 50%; 
+    margin: 10px; 
+}
+
+#press{
+    background-color:rgb(199, 127, 199);
+    text-align: center; 
+}
+
+.press-logo{
+    width: 10%;
+    margin: 20px 20px 50px; /*top, LR bottom*/
+}
+
+/* Pricing Section*/
+
+#pricing{
+    padding: 100px; 
+    text-align: center; 
+}
+
+.pricing-header{
+    color: black; 
+}
+
+.pricing-column{
+    padding: 2% 3%; 
+}
+
+/*Call to Action Section CTA */
+
+#cta{
+    background-color: #fa7f96;
+    color: white; 
+    padding: 7% 15%; 
+    text-align: center; 
+}
+
+.cta-heading{
+    font-family: 'Palanquin';
+    font-weight: bold; 
+    font-size: 3.5rem; 
+    line-height: 1.5; 
+}
+
+/* Footer Section */
+
+#footer{
+    padding: 7% 15%; 
+    text-align: center; 
+}
+
+.social-icon{
+    margin: 20px 10px; 
+}
+
+/* Media Query Section */
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center; 
+    }
+    .title-image{
+        position: static; 
+        transform: rotate(0); 
+    }
+}
